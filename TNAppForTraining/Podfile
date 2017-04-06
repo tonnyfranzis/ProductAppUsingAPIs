@@ -1,0 +1,5 @@
+platform :ios,’8.1’
+use_frameworks!
+target'TNAppForTraining' do
+pod 'ENSwiftSideMenu', '~> 0.1'
+end

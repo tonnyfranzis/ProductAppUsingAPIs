@@ -1,0 +1,688 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C9D2175EA7F22A992B7F2C67 /* Pods_TNAppForTraining.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C84B2C097D51A4140E98FC33 /* Pods_TNAppForTraining.framework */; };
+		D030F1821E2790A9001C4B59 /* FloatRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D030F1811E2790A9001C4B59 /* FloatRatingView.swift */; };
+		D0312CDF1DF69B4700F68750 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0312CDE1DF69B4700F68750 /* AppDelegate.swift */; };
+		D0312CE11DF69B4700F68750 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0312CE01DF69B4700F68750 /* ViewController.swift */; };
+		D0312CE41DF69B4700F68750 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0312CE21DF69B4700F68750 /* Main.storyboard */; };
+		D0312CE71DF69B4700F68750 /* TNAppForTraining.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D0312CE51DF69B4700F68750 /* TNAppForTraining.xcdatamodeld */; };
+		D0312CE91DF69B4700F68750 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0312CE81DF69B4700F68750 /* Assets.xcassets */; };
+		D0312CEC1DF69B4700F68750 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0312CEA1DF69B4700F68750 /* LaunchScreen.storyboard */; };
+		D0312CF71DF69B4700F68750 /* TNAppForTrainingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0312CF61DF69B4700F68750 /* TNAppForTrainingTests.swift */; };
+		D0312D021DF69B4700F68750 /* TNAppForTrainingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0312D011DF69B4700F68750 /* TNAppForTrainingUITests.swift */; };
+		D03526B61DF922A300AC9313 /* TNLoginTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03526B51DF922A300AC9313 /* TNLoginTableViewController.swift */; };
+		D03566E71E24EEF600ABB002 /* TNHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03566E61E24EEF600ABB002 /* TNHomeViewController.swift */; };
+		D03566E91E24F02700ABB002 /* TNHomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03566E81E24F02700ABB002 /* TNHomeCollectionViewCell.swift */; };
+		D03566EB1E24F08A00ABB002 /* TNHomeCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03566EA1E24F08A00ABB002 /* TNHomeCollectionViewController.swift */; };
+		D03757B11E30D39D00E8B3A6 /* TNPodNaviViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03757B01E30D39D00E8B3A6 /* TNPodNaviViewController.swift */; };
+		D042B4E71E263C47003EA50E /* TNHomePage2CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D042B4E61E263C46003EA50E /* TNHomePage2CollectionViewController.swift */; };
+		D042B4E91E263C9C003EA50E /* TNHomePage2CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D042B4E81E263C9C003EA50E /* TNHomePage2CollectionViewCell.swift */; };
+		D0D165491DFA799200A29FA2 /* TNButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D165481DFA799200A29FA2 /* TNButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D0312CF31DF69B4700F68750 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0312CD31DF69B4700F68750 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0312CDA1DF69B4700F68750;
+			remoteInfo = TNAppForTraining;
+		};
+		D0312CFE1DF69B4700F68750 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0312CD31DF69B4700F68750 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0312CDA1DF69B4700F68750;
+			remoteInfo = TNAppForTraining;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		97278D05EF78AE1CCFE71B25 /* Pods-TNAppForTraining.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TNAppForTraining.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TNAppForTraining/Pods-TNAppForTraining.debug.xcconfig"; sourceTree = "<group>"; };
+		9F8DF65851E0BF61C1532958 /* Pods-TNAppForTraining.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TNAppForTraining.release.xcconfig"; path = "Pods/Target Support Files/Pods-TNAppForTraining/Pods-TNAppForTraining.release.xcconfig"; sourceTree = "<group>"; };
+		C84B2C097D51A4140E98FC33 /* Pods_TNAppForTraining.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TNAppForTraining.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D030F1811E2790A9001C4B59 /* FloatRatingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FloatRatingView.swift; path = "../../../../../../Downloads/FloatRatingView-1.0.3/FloatRatingView.swift"; sourceTree = "<group>"; };
+		D0312CDB1DF69B4700F68750 /* TNAppForTraining.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TNAppForTraining.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0312CDE1DF69B4700F68750 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D0312CE01DF69B4700F68750 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D0312CE31DF69B4700F68750 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D0312CE61DF69B4700F68750 /* TNAppForTraining.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TNAppForTraining.xcdatamodel; sourceTree = "<group>"; };
+		D0312CE81DF69B4700F68750 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0312CEB1DF69B4700F68750 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D0312CED1DF69B4700F68750 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0312CF21DF69B4700F68750 /* TNAppForTrainingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TNAppForTrainingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0312CF61DF69B4700F68750 /* TNAppForTrainingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TNAppForTrainingTests.swift; sourceTree = "<group>"; };
+		D0312CF81DF69B4700F68750 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0312CFD1DF69B4700F68750 /* TNAppForTrainingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TNAppForTrainingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0312D011DF69B4700F68750 /* TNAppForTrainingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TNAppForTrainingUITests.swift; sourceTree = "<group>"; };
+		D0312D031DF69B4700F68750 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D03526B51DF922A300AC9313 /* TNLoginTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TNLoginTableViewController.swift; sourceTree = "<group>"; };
+		D03566E61E24EEF600ABB002 /* TNHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TNHomeViewController.swift; sourceTree = "<group>"; };
+		D03566E81E24F02700ABB002 /* TNHomeCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TNHomeCollectionViewCell.swift; sourceTree = "<group>"; };
+		D03566EA1E24F08A00ABB002 /* TNHomeCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TNHomeCollectionViewController.swift; sourceTree = "<group>"; };
+		D03757B01E30D39D00E8B3A6 /* TNPodNaviViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TNPodNaviViewController.swift; sourceTree = "<group>"; };
+		D042B4E61E263C46003EA50E /* TNHomePage2CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TNHomePage2CollectionViewController.swift; sourceTree = "<group>"; };
+		D042B4E81E263C9C003EA50E /* TNHomePage2CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TNHomePage2CollectionViewCell.swift; sourceTree = "<group>"; };
+		D0D165481DFA799200A29FA2 /* TNButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TNButton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0312CD81DF69B4700F68750 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9D2175EA7F22A992B7F2C67 /* Pods_TNAppForTraining.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0312CEF1DF69B4700F68750 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0312CFA1DF69B4700F68750 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B8A1FA080964457AF00F1ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C84B2C097D51A4140E98FC33 /* Pods_TNAppForTraining.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C184E4CC950592ABA9399C28 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				97278D05EF78AE1CCFE71B25 /* Pods-TNAppForTraining.debug.xcconfig */,
+				9F8DF65851E0BF61C1532958 /* Pods-TNAppForTraining.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D030F17B1E278EA4001C4B59 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				D030F1811E2790A9001C4B59 /* FloatRatingView.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		D030F17C1E278EAB001C4B59 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D030F17D1E278EB2001C4B59 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D030F17E1E278EB7001C4B59 /* Stores */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Stores;
+			sourceTree = "<group>";
+		};
+		D0312CD21DF69B4700F68750 = {
+			isa = PBXGroup;
+			children = (
+				D0312CDD1DF69B4700F68750 /* TNAppForTraining */,
+				D0312CF51DF69B4700F68750 /* TNAppForTrainingTests */,
+				D0312D001DF69B4700F68750 /* TNAppForTrainingUITests */,
+				D0312CDC1DF69B4700F68750 /* Products */,
+				C184E4CC950592ABA9399C28 /* Pods */,
+				4B8A1FA080964457AF00F1ED /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D0312CDC1DF69B4700F68750 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0312CDB1DF69B4700F68750 /* TNAppForTraining.app */,
+				D0312CF21DF69B4700F68750 /* TNAppForTrainingTests.xctest */,
+				D0312CFD1DF69B4700F68750 /* TNAppForTrainingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0312CDD1DF69B4700F68750 /* TNAppForTraining */ = {
+			isa = PBXGroup;
+			children = (
+				D030F17E1E278EB7001C4B59 /* Stores */,
+				D030F17D1E278EB2001C4B59 /* Views */,
+				D030F17C1E278EAB001C4B59 /* Models */,
+				D030F17B1E278EA4001C4B59 /* Helpers */,
+				D03526F51DF939EB00AC9313 /* controllers */,
+				D0312CDE1DF69B4700F68750 /* AppDelegate.swift */,
+				D0312CE01DF69B4700F68750 /* ViewController.swift */,
+				D03526B51DF922A300AC9313 /* TNLoginTableViewController.swift */,
+				D0312CE21DF69B4700F68750 /* Main.storyboard */,
+				D0312CE81DF69B4700F68750 /* Assets.xcassets */,
+				D0312CEA1DF69B4700F68750 /* LaunchScreen.storyboard */,
+				D0312CED1DF69B4700F68750 /* Info.plist */,
+				D0312CE51DF69B4700F68750 /* TNAppForTraining.xcdatamodeld */,
+				D0D1654A1DFA7EAC00A29FA2 /* Custom UI */,
+				D03566E61E24EEF600ABB002 /* TNHomeViewController.swift */,
+				D03566E81E24F02700ABB002 /* TNHomeCollectionViewCell.swift */,
+				D03566EA1E24F08A00ABB002 /* TNHomeCollectionViewController.swift */,
+				D042B4E61E263C46003EA50E /* TNHomePage2CollectionViewController.swift */,
+			);
+			path = TNAppForTraining;
+			sourceTree = "<group>";
+		};
+		D0312CF51DF69B4700F68750 /* TNAppForTrainingTests */ = {
+			isa = PBXGroup;
+			children = (
+				D0312CF61DF69B4700F68750 /* TNAppForTrainingTests.swift */,
+				D0312CF81DF69B4700F68750 /* Info.plist */,
+			);
+			path = TNAppForTrainingTests;
+			sourceTree = "<group>";
+		};
+		D0312D001DF69B4700F68750 /* TNAppForTrainingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D0312D011DF69B4700F68750 /* TNAppForTrainingUITests.swift */,
+				D0312D031DF69B4700F68750 /* Info.plist */,
+			);
+			path = TNAppForTrainingUITests;
+			sourceTree = "<group>";
+		};
+		D03526F51DF939EB00AC9313 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D042B4E81E263C9C003EA50E /* TNHomePage2CollectionViewCell.swift */,
+				D03757B01E30D39D00E8B3A6 /* TNPodNaviViewController.swift */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		D0D1654A1DFA7EAC00A29FA2 /* Custom UI */ = {
+			isa = PBXGroup;
+			children = (
+				D0D165481DFA799200A29FA2 /* TNButton.swift */,
+			);
+			name = "Custom UI";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0312CDA1DF69B4700F68750 /* TNAppForTraining */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0312D061DF69B4700F68750 /* Build configuration list for PBXNativeTarget "TNAppForTraining" */;
+			buildPhases = (
+				A2A3926B31C3781572CBCEF5 /* [CP] Check Pods Manifest.lock */,
+				D0312CD71DF69B4700F68750 /* Sources */,
+				D0312CD81DF69B4700F68750 /* Frameworks */,
+				D0312CD91DF69B4700F68750 /* Resources */,
+				3BF90BC87D888D83F73D5EC5 /* [CP] Embed Pods Frameworks */,
+				694BE8C382C5F25693581AA9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TNAppForTraining;
+			productName = TNAppForTraining;
+			productReference = D0312CDB1DF69B4700F68750 /* TNAppForTraining.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D0312CF11DF69B4700F68750 /* TNAppForTrainingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0312D091DF69B4700F68750 /* Build configuration list for PBXNativeTarget "TNAppForTrainingTests" */;
+			buildPhases = (
+				D0312CEE1DF69B4700F68750 /* Sources */,
+				D0312CEF1DF69B4700F68750 /* Frameworks */,
+				D0312CF01DF69B4700F68750 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0312CF41DF69B4700F68750 /* PBXTargetDependency */,
+			);
+			name = TNAppForTrainingTests;
+			productName = TNAppForTrainingTests;
+			productReference = D0312CF21DF69B4700F68750 /* TNAppForTrainingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D0312CFC1DF69B4700F68750 /* TNAppForTrainingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0312D0C1DF69B4700F68750 /* Build configuration list for PBXNativeTarget "TNAppForTrainingUITests" */;
+			buildPhases = (
+				D0312CF91DF69B4700F68750 /* Sources */,
+				D0312CFA1DF69B4700F68750 /* Frameworks */,
+				D0312CFB1DF69B4700F68750 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0312CFF1DF69B4700F68750 /* PBXTargetDependency */,
+			);
+			name = TNAppForTrainingUITests;
+			productName = TNAppForTrainingUITests;
+			productReference = D0312CFD1DF69B4700F68750 /* TNAppForTrainingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0312CD31DF69B4700F68750 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Focaloid;
+				TargetAttributes = {
+					D0312CDA1DF69B4700F68750 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					D0312CF11DF69B4700F68750 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = D0312CDA1DF69B4700F68750;
+					};
+					D0312CFC1DF69B4700F68750 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = D0312CDA1DF69B4700F68750;
+					};
+				};
+			};
+			buildConfigurationList = D0312CD61DF69B4700F68750 /* Build configuration list for PBXProject "TNAppForTraining" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0312CD21DF69B4700F68750;
+			productRefGroup = D0312CDC1DF69B4700F68750 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0312CDA1DF69B4700F68750 /* TNAppForTraining */,
+				D0312CF11DF69B4700F68750 /* TNAppForTrainingTests */,
+				D0312CFC1DF69B4700F68750 /* TNAppForTrainingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0312CD91DF69B4700F68750 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0312CEC1DF69B4700F68750 /* LaunchScreen.storyboard in Resources */,
+				D0312CE91DF69B4700F68750 /* Assets.xcassets in Resources */,
+				D0312CE41DF69B4700F68750 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0312CF01DF69B4700F68750 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0312CFB1DF69B4700F68750 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3BF90BC87D888D83F73D5EC5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TNAppForTraining/Pods-TNAppForTraining-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		694BE8C382C5F25693581AA9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TNAppForTraining/Pods-TNAppForTraining-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2A3926B31C3781572CBCEF5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0312CD71DF69B4700F68750 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D03566E71E24EEF600ABB002 /* TNHomeViewController.swift in Sources */,
+				D0312CE11DF69B4700F68750 /* ViewController.swift in Sources */,
+				D042B4E71E263C47003EA50E /* TNHomePage2CollectionViewController.swift in Sources */,
+				D0312CE71DF69B4700F68750 /* TNAppForTraining.xcdatamodeld in Sources */,
+				D03526B61DF922A300AC9313 /* TNLoginTableViewController.swift in Sources */,
+				D0D165491DFA799200A29FA2 /* TNButton.swift in Sources */,
+				D03566EB1E24F08A00ABB002 /* TNHomeCollectionViewController.swift in Sources */,
+				D030F1821E2790A9001C4B59 /* FloatRatingView.swift in Sources */,
+				D03566E91E24F02700ABB002 /* TNHomeCollectionViewCell.swift in Sources */,
+				D0312CDF1DF69B4700F68750 /* AppDelegate.swift in Sources */,
+				D03757B11E30D39D00E8B3A6 /* TNPodNaviViewController.swift in Sources */,
+				D042B4E91E263C9C003EA50E /* TNHomePage2CollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0312CEE1DF69B4700F68750 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0312CF71DF69B4700F68750 /* TNAppForTrainingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0312CF91DF69B4700F68750 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0312D021DF69B4700F68750 /* TNAppForTrainingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D0312CF41DF69B4700F68750 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0312CDA1DF69B4700F68750 /* TNAppForTraining */;
+			targetProxy = D0312CF31DF69B4700F68750 /* PBXContainerItemProxy */;
+		};
+		D0312CFF1DF69B4700F68750 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0312CDA1DF69B4700F68750 /* TNAppForTraining */;
+			targetProxy = D0312CFE1DF69B4700F68750 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D0312CE21DF69B4700F68750 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0312CE31DF69B4700F68750 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D0312CEA1DF69B4700F68750 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0312CEB1DF69B4700F68750 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0312D041DF69B4700F68750 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D0312D051DF69B4700F68750 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0312D071DF69B4700F68750 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97278D05EF78AE1CCFE71B25 /* Pods-TNAppForTraining.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TNAppForTraining/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TNFocaloid.TNAppForTraining;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D0312D081DF69B4700F68750 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F8DF65851E0BF61C1532958 /* Pods-TNAppForTraining.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TNAppForTraining/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TNFocaloid.TNAppForTraining;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D0312D0A1DF69B4700F68750 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TNAppForTrainingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TNFocaloid.TNAppForTrainingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TNAppForTraining.app/TNAppForTraining";
+			};
+			name = Debug;
+		};
+		D0312D0B1DF69B4700F68750 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TNAppForTrainingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TNFocaloid.TNAppForTrainingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TNAppForTraining.app/TNAppForTraining";
+			};
+			name = Release;
+		};
+		D0312D0D1DF69B4700F68750 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TNAppForTrainingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TNFocaloid.TNAppForTrainingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TNAppForTraining;
+			};
+			name = Debug;
+		};
+		D0312D0E1DF69B4700F68750 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TNAppForTrainingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TNFocaloid.TNAppForTrainingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TNAppForTraining;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0312CD61DF69B4700F68750 /* Build configuration list for PBXProject "TNAppForTraining" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0312D041DF69B4700F68750 /* Debug */,
+				D0312D051DF69B4700F68750 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0312D061DF69B4700F68750 /* Build configuration list for PBXNativeTarget "TNAppForTraining" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0312D071DF69B4700F68750 /* Debug */,
+				D0312D081DF69B4700F68750 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0312D091DF69B4700F68750 /* Build configuration list for PBXNativeTarget "TNAppForTrainingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0312D0A1DF69B4700F68750 /* Debug */,
+				D0312D0B1DF69B4700F68750 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0312D0C1DF69B4700F68750 /* Build configuration list for PBXNativeTarget "TNAppForTrainingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0312D0D1DF69B4700F68750 /* Debug */,
+				D0312D0E1DF69B4700F68750 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D0312CE51DF69B4700F68750 /* TNAppForTraining.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D0312CE61DF69B4700F68750 /* TNAppForTraining.xcdatamodel */,
+			);
+			currentVersion = D0312CE61DF69B4700F68750 /* TNAppForTraining.xcdatamodel */;
+			path = TNAppForTraining.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D0312CD31DF69B4700F68750 /* Project object */;
+}
